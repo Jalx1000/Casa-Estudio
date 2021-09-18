@@ -1,0 +1,28 @@
+*{
+    background:black;
+    text-transform:capitalize;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;margin:0;border:none;
+    text-decoration: none;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 15px;
+}
+.listas{
+    display: flex;
+    justify-content: center;
+}
+.listas-letras{
+
+}
+.listas-letras-enlaces{
+    color: #fff;
+    padding-right: 1em;
+}
+.listas-letras:hover a{
+    color:yellow;
+    cursor:pointer;
+}
