@@ -355,11 +355,11 @@ ul {
     text-align: center;
     font-size: 3em;
     padding: 2em;
+    text-decoration:underline;
+    text-decoration-color: #CC0000;
 }
 
-.logo span {
-    color: #B70E21;
-}
+
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -379,6 +379,7 @@ ul {
 .contact-form form label {
     display: block;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 .contact-form form p {
@@ -407,6 +408,7 @@ ul {
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+    font-size: 25px;
 }
 
 .contact-form form button:hover,
@@ -445,10 +447,12 @@ footer{
 .listas-footer{
     padding:25px;
     line-height:30px;
+    font-size:25px;
 }
 
 .redes{
     padding:25px;
+    font-size:25px;
 }
 .iconos-footer{
     display: flex;
