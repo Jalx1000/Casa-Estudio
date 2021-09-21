@@ -32,11 +32,10 @@
         </ul>
       </nav>
     </header>
-    <!--============ CODIGOS DE COLORES 8ABAD3 ED8074 CC0000 ============-->
 
     <!--============ HOME  ============-->
-    <section id="#home" class="presentacion">
-      <div id="#home" class="intro contenido imagen">
+    <section id="home" class="presentacion">
+      <div id="home" class="intro contenido imagen">
         <div class="contenido-presentacion">
           <h1 class="palabras">
             I'm <span class="resaltar">J</span>avier
@@ -74,24 +73,8 @@
       </div>
     </section>
 
-    <!-- <div class="slide-contenedor">
-      <div class="miSlider fade"><img src="/img/Carrusel.png" alt=""></div>
-      <div class="miSlider fade"><img src="/img/Carrusel.png" alt=""></div>
-      <div class="miSlider fade"><img src="/img/Carrusel.png" alt=""></div>
-      <div class="miSlider fade"><img src="/img/Carrusel.png" alt=""></div>
-      <div class="direcciones">
-        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-      </div>
-      <div class="barras">
-        <span class="barra active" onclick="posicionSlide(1)"></span>
-        <span class="barra" onclick="posicionSlide(2)"></span>
-        <span class="barra" onclick="posicionSlide(3)"></span>
-      </div>
-    </div> -->
-
   <!-- PORFOLIO     -->
-    <div class="porfolio-contenedor">
+    <div id="portfolio" class="porfolio-contenedor">
         <h2 class="titulo">Porfolio</h2>
       <div class="imagenes">
         <img src="/img/Carrusel.png" alt="" class="imagen-porfolio">
@@ -105,7 +88,7 @@
       <!-- SKILLS -->
 
     </div>
-        <div class="skills-contenedor">
+        <div id="skills" class="skills-contenedor">
         <h2 class="titulo">Skills</h2>
       <div class="imagenes">
         <img src="/img/html.png" alt="" class="imagen-skills">
@@ -115,35 +98,7 @@
       </div>
     </div>
 
-    <!-- CONTACT ME -->
-    <!-- <div class="container-contactme">
-      <h2 class="titulo-contactme">Contact Me</h2>
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country" >Country</label>
-    <select id="country" name="country" placeholder="Your Country">
-      <option value="Bolivia">Bolivia</option>
-      <option value="Chile">Chile</option>
-      <option value="Brasil">Brasil</option>
-      <option value="Argentina">Argentina</option>
-      <option value="Paraguay">Paraguay</option>
-      <option value="Uruguay">Uruguay</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div> -->
-<div class="container-a">
+<div id="contactme" class="container-a">
 
         <h1 class="logo">Contact <span>Us</span></h1>
 
@@ -187,12 +142,13 @@
         <p>Frontend developer</p>
       </div>
       <div class="listas-footer">
-        <ul class="lista">
-          <li>Home</li>
-          <li>Porfolio</li>
-          <li>Skills</li>
-          <li>Contac Me</li>
-        </ul>
+        <a class="lista">
+          <li> <a href="#home">Home</li></a>
+          <li> <a href="#about">About</li></a>
+          <li> <a href="#portfolio"> Portfolio</li></a>
+          <li> <a href="#skills">Skills</li></a> 
+          <li> <a href="#contactme">Contac Me</li></a> 
+        </a>
       </div>
       <div class="redes">
         <h3>Follow Me</h3>
