@@ -9,7 +9,7 @@
     color:#fff;
     font-family: 'Yanone Kaffeesatz', sans-serif; 
     /* font-family: 'Roboto', sans-serif; */
-    transition: 1s;
+    transition: 0.5s;
 
 }
 body{
@@ -105,19 +105,49 @@ header{
 /* FIN DE LA PRESENTACION */
 
 /* ABOUT */
-
-.about-imagen{
-    background-image: url(/img/icon2.png);
+.about{
     height:100vh;
-    width:100%;
-    padding-left: 5px;
-    /* border: 1px solid rgb(122, 113, 113); */
-    opacity: 0.5;
+    /* border:1px solid white; */
 }
-.container-about{
-    border: 1px solid white;
-    margin: 2em;
-    padding:45vh;
-    background-color: white;
-    opacity: 0.5;
+.about_titulo{
+    display:flex;
+    justify-content: center;
+    padding-top: 1em;
+    font-size:3em;
+    text-decoration: underline;
+    text-decoration-color:#cc0000;
+}
+.about_container{
+    height:80vh;
+    /* border:1px solid white; */
+}
+.about_container img{
+    width: 45vw;
+    height:80vh;
+}
+.contenedor-imagen{
+    width:100vw;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content:right;
+}
+.about_descripcion{
+    width:100%;
+    height:100%;
+    align-items:center;
+    padding:14%;
+    font-size:30px;
+    display: block;
+    text-align:justify;
+    line-height : 1.2em;
+    letter-spacing: 1px;
+    
+}
+.about_descripcion a {
+    margin-top:20px ;
+    display:inline-block;
+    padding: 10px;
+    background-color: #cc0000;
+    justify-content: center;
+    border-radius:5px;
 }
